@@ -53,7 +53,6 @@ C:\Users\antnf\AppData\Local\Yarn\bin
     "esModuleInterop": true,
     "sourceMap": true,
     "target": "es5",
-    "jsx": "react",
     "baseUrl": "./src",
     "paths": {
       "~*": ["./*"]
@@ -79,4 +78,18 @@ C:\Users\antnf\AppData\Local\Yarn\bin
 
 ```shell
 > yarn add -D sass
+```
+
+## autoprefixer 적용
+
+```json
+프로젝트 root 디렉토리에 .postcssrc 파일 생성하여 아래 내용 입력
+{
+  "modules": false,
+  "plugins": {
+    "autoprefixer": {
+      "grid": true
+    }
+  }
+}
 ```
