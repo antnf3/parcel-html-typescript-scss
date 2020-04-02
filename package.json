@@ -15,10 +15,5 @@
     "sass": "^1.26.3",
     "typescript": "^3.8.3"
   },
-  "dependencies": {},
-  "browserslist": {
-    "browsers": [
-      "last 4 versions"
-    ]
-  }
+  "dependencies": {}
 }

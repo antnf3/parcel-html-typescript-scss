@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.ts"],"names":[],"mappings":";AAAA,IAAM,EAAO,SAAC,GACZ,QAAQ,IAAI,IAGd,EAAK","file":"src.3bdb081a.js","sourceRoot":"..\\src","sourcesContent":["const test = (strText: string) => {\r\n  console.log(strText);\r\n};\r\n\r\ntest(\"test\");\r\n"]}
