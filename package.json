@@ -10,8 +10,15 @@
     "build": "parcel build src/index.html -d build --public-url ./"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "cssnano": "^4.1.10",
     "sass": "^1.26.3",
     "typescript": "^3.8.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "browserslist": {
+    "browsers": [
+      "last 4 versions"
+    ]
+  }
 }
